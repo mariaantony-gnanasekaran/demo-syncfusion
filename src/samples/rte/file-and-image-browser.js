@@ -1,6 +1,6 @@
 export class FileAndImageBrowserRTE {
   constructor() {
-    this.fileService = 'http://mvc.syncfusion.com/OdataServices/fileExplorer/fileoperation/doJSONAction';
+    this.fileService = 'http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations/doJSONPAction';
 
     if (this.isRestrictCrossOrigin()) {
       //IE8, IE9 browser restrict CORS, so we set ajax request as JSONP to enable CORS
@@ -28,13 +28,13 @@ export class FileAndImageBrowserRTE {
         }
       };
       //we have called "PerformJSONPAction" method to handle JSONP AJAX requests
-      this.fileService = 'http://mvc.syncfusion.com/OdataServices/fileExplorer/fileoperation/doJSONPAction';
+      this.fileService = 'http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations/doJSONPAction';
     }
 
     this.toolsList = ['images'];
     this.tools = {images: ['image']};
-    this.imageBrowser = { filePath: 'http://mvc.syncfusion.com/OdataServices/FileBrowser/', ajaxAction: this.fileService, extensionAllow: '*.png, *.gif, *.jpg, *.jpeg, *.docx', ajaxSettings: this.ajaxSettings };
-    this.fileBrowser = { filePath: 'http://mvc.syncfusion.com/OdataServices/FileBrowser/', ajaxAction: this.fileService, extensionAllow: '*.txt, *.png, *.pdf,*.jpeg', ajaxSettings: this.ajaxSettings1 };
+    this.imageBrowser = { filePath: 'http://js.syncfusion.com/demos/ejServices/Content/FileBrowser/', ajaxAction: this.fileService, extensionAllow: '*.png, *.gif, *.jpg, *.jpeg, *.docx', ajaxSettings: this.ajaxSettings };
+    this.fileBrowser = { filePath: 'http://js.syncfusion.com/demos/ejServices/Content/FileBrowser/', ajaxAction: this.fileService, extensionAllow: '*.txt, *.png, *.pdf,*.jpeg', ajaxSettings: this.ajaxSettings1 };
   }
   isRestrictCrossOrigin() {
     let browserInfo = ej.browserInfo();

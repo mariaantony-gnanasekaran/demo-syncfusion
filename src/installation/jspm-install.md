@@ -24,7 +24,6 @@
       "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1",
       "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.2",
       "jquery": "npm:jquery@2.2.3",                                                     <----      
-      "jquery-easing": "npm:jquery.easing@1.3.2",                                       <----
       "jquery-validation": "npm:jquery-validation@1.15.0",                              <----
       "jquery-validation-unobtrusive": "npm:jquery-validation-unobtrusive@3.2.6",       <----
       "jsrender": "npm:jsrender@0.9.75",                                                <----

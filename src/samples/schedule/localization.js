@@ -7,8 +7,8 @@ export class Localization {
         dataSource: [
                   { Id: 1000,
                     Subject: "Men's Prelim. Round SVK - SLO",
-                    StartTime: '2014/4/4 10:00:00',
-                    EndTime: '2014/4/4 11:30:00',
+                    StartTime: '2017/6/4 10:00:00',
+                    EndTime: '2017/6/4 11:30:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -17,8 +17,8 @@ export class Localization {
                   }, {
                     Id: 1001,
                     Subject: "Women's Play-offs Quarterfinals",
-                    StartTime: '2014/4/5 04:30:00',
-                    EndTime: '2014/4/5 06:00:00',
+                    StartTime: '2017/6/5 04:30:00',
+                    EndTime: '2017/6/5 06:00:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -27,8 +27,8 @@ export class Localization {
                   }, {
                     Id: 1002,
                     Subject: "Women's Prelim. Round JPN - GER",
-                    StartTime: '2014/4/6 07:00:00',
-                    EndTime: '2014/4/6 08:30:00',
+                    StartTime: '2017/6/6 07:00:00',
+                    EndTime: '2017/6/6 08:30:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -37,8 +37,8 @@ export class Localization {
                   }, {
                     Id: 1003,
                     Subject: "Men's Prelim. Round FIN - AUT",
-                    StartTime: '2014/4/7 09:30:00',
-                    EndTime: '2014/4/7 10:35:00',
+                    StartTime: '2017/6/7 09:30:00',
+                    EndTime: '2017/6/7 10:35:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -47,8 +47,8 @@ export class Localization {
                   }, {
                     Id: 1004,
                     Subject: "Women's Preim. Round SUI -FIN",
-                    StartTime: '2014/4/8 06:00:00',
-                    EndTime: '2014/4/8 07:30:00',
+                    StartTime: '2017/6/8 06:00:00',
+                    EndTime: '2017/6/8 07:30:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -57,8 +57,8 @@ export class Localization {
                   }, {
                     Id: 1005,
                     Subject: "Men's Prelim Round RUS - SVK",
-                    StartTime: '2014/4/9 05:00:00',
-                    EndTime: '2014/4/9 06:15:00',
+                    StartTime: '2017/6/9 05:00:00',
+                    EndTime: '2017/6/9 06:15:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -67,8 +67,8 @@ export class Localization {
                   }, {
                     Id: 1006,
                     Subject: "Women's Classifications RUS - JPN",
-                    StartTime: '2014/4/10 09:00:00',
-                    EndTime: '2014/4/10 11:00:00',
+                    StartTime: '2017/6/10 09:00:00',
+                    EndTime: '2017/6/10 11:00:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -77,8 +77,8 @@ export class Localization {
                   }, {
                     Id: 1007,
                     Subject: "Men's Play-offs Semifinals CAN - SUI",
-                    StartTime: '2014/4/4 16:30:00',
-                    EndTime: '2014/4/4 18:00:00',
+                    StartTime: '2017/6/4 16:30:00',
+                    EndTime: '2017/6/4 18:00:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -87,8 +87,8 @@ export class Localization {
                   }, {
                     Id: 1008,
                     Subject: "Women's Play-offs Semifinals USA - SWE",
-                    StartTime: '2014/4/4 21:00:00',
-                    EndTime: '2014/4/4 22:00:00',
+                    StartTime: '2017/6/4 21:00:00',
+                    EndTime: '2017/6/4 22:00:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -97,8 +97,8 @@ export class Localization {
                   }, {
                     Id: 1009,
                     Subject: 'Finals SUI - SWE',
-                    StartTime: '2014/4/5 16:00:00',
-                    EndTime: '2014/4/5 18:00:00',
+                    StartTime: '2017/6/5 16:00:00',
+                    EndTime: '2017/6/5 18:00:00',
                     StartTimeZone: 'UTC +05:30',
                     EndTimeZone: 'UTC +05:30',
                     Description: '',
@@ -218,7 +218,11 @@ export class Localization {
         NoTitle: 'Pas de titre',
         OverFlowAppCount: 'plus rendez-vous (s)',
         AppointmentIndicator: 'Cliquez pour plus de rendez-vous',
-        EmptyResultText: 'Pas de suggestions'
+        EmptyResultText: 'Pas de suggestions',
+		BlockIntervalAlertTitle: "Alerte",
+        BlockIntervalError: "L'intervalle de temps choisi a été bloqué et est indisponible pour la sélection.",
+        RecurrenceDateValidation: "Certains mois ont moins de dates sélectionnées. Pour ces mois, l'occurrence tombera à la dernière date du mois",
+        SeriesChangeAlert: "Les modifications apportées aux instances spécifiques de cette série seront annulées et ces rendez-vous seront identiques à la série"
       };
     }
 }

@@ -7,7 +7,7 @@ export class TeamOrgChart {
         },
         {
           'Id': 1, 'Name': 'Ana Trujillo', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Thomas.PNG', 'IsExpand': 'false',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Thomas.png', 'IsExpand': 'false',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {
@@ -62,12 +62,12 @@ export class TeamOrgChart {
         },
         {
           'Id': 27, 'Name': 'Lino Rodri', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Robin.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Robin.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {
           'Id': 38, 'Name': 'Philip Cramer', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Robin.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Robin.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {
@@ -282,67 +282,67 @@ export class TeamOrgChart {
         },
         {
           'Id': 60, 'Name': 'Nardo Batista', 'Designation': 'Project Lead',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Maria.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Maria.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 59
         },
         {
           'Id': 61, 'Name': 'L�cia Carvalho', 'Designation': 'Senior S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Robin.PNG', 'IsExpand': 'false',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Robin.png', 'IsExpand': 'false',
           'RatingColor': '#93B85A', 'ReportingPerson': 60
         },
         {
           'Id': 62, 'Name': 'Horst Kloss', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Clayton.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Clayton.png', 'IsExpand': 'None',
           'RatingColor': '#68C2DE', 'ReportingPerson': 74
         },
         {
           'Id': 63, 'Name': 'Sergio roel', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/image55.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/image55.png', 'IsExpand': 'None',
           'RatingColor': '#EBB92E', 'ReportingPerson': 61
         },
         {
           'Id': 64, 'Name': 'Paula Wilson', 'Designation': 'S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/eric.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/eric.png', 'IsExpand': 'None',
           'RatingColor': '#68C2DE', 'ReportingPerson': 7
         },
         {
           'Id': 65, 'Name': 'Mauri Moroni', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/image53.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/image53.png', 'IsExpand': 'None',
           'RatingColor': '#93B85A', 'ReportingPerson': 6
         },
         {
           'Id': 66, 'Name': 'Janete Limeira', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/image51.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/image51.png', 'IsExpand': 'None',
           'RatingColor': '#93B85A', 'ReportingPerson': 7
         },
         {
           'Id': 67, 'Name': 'Michael Holz', 'Designation': 'Project Lead',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Thomas.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Thomas.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 59
         },
         {
           'Id': 68, 'Name': 'Alej Camino', 'Designation': 'Senior S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Thomas.PNG', 'IsExpand': 'false',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Thomas.png', 'IsExpand': 'false',
           'RatingColor': '#93B85A', 'ReportingPerson': 67
         },
         {
           'Id': 69, 'Name': 'Jonas Bergsen', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/image53.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/image53.png', 'IsExpand': 'None',
           'RatingColor': '#68C2DE', 'ReportingPerson': 19
         },
         {
           'Id': 70, 'Name': 'Jose Pavarotti', 'Designation': 'S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/Maria.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/Maria.png', 'IsExpand': 'None',
           'RatingColor': '#D46E89', 'ReportingPerson': 56
         },
         {
           'Id': 71, 'Name': 'Miguel Angel', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/eric.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/eric.png', 'IsExpand': 'None',
           'RatingColor': '#D46E89', 'ReportingPerson': 16
         },
         {
           'Id': 72, 'Name': 'Jytte Petersen', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/orgchart/image55.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/orgchart/image55.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 59
         },
         {

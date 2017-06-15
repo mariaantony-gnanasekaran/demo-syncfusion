@@ -1,0 +1,60 @@
+<template>
+    <require from="./api.css"></require>
+    <div id="SpellControl">
+        <ej-spell-check id="SpellCheck" contenteditable="true" e-widget.bind="spellcheck" e-dictionary-settings.bind="dictionarySettings">
+            Amazon.com, Inc., often refered to as simply Amazon, is an American electronic commerce and cloud computing company with headquarters in Seattle, Washington. It is the largest web-based retailer in the United States. Amazon.com started as bookstore on the web, later diversifying to sell DVDs, Blu-rays, CDs, video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys and jewelry. The company also produces consumer electronics—notably, Amazon Kindle e-book readers, Fire tablets, Fire TV and Fire Phone—and is the world's largest provider of cloud infrastructure services (IaaS). Amazon also sells certain low-end products like USB cables under its in-house brand AmazonBasics.
+            Amazon has separate retail websites for United States, United Kingdom and Ireland, France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India and Mexico. Amazon also offers international shipping to cetain other countries for some of its products.
+        </ej-spell-check>
+    </div>
+    <div class="spellbutton">
+        <input ej-button="e-text:Spell check" e-on-click.trigger="showDialog($event)" id="CheckSpell" />
+    </div>
+    <div id="property-window" class="box wide">
+        <div class="row">
+            <div class="col-md-3">Ignore AlphaNumeric Words</div>
+            <div class="col-md-3">                
+                <ej-checkbox id="ignoreAlphaNumericWords" ej-check-box="e-checked.bind:value;" e-on-change.trigger="onIgnoreAlphaNumericWords($event)"></ej-checkbox>
+            </div>
+            <div class="col-md-3">Ignore UpperCase</div>
+            <div class="col-md-3">                
+                <ej-checkbox id="ignoreUpperCase" ej-check-box="e-checked.bind:value;" e-on-change.trigger="onIgnoreUpperCase($event)"></ej-checkbox>
+            </div>
+        </div><br/>
+        <div class="row">
+            <div class="col-md-3">Ignore MixedCase Words</div>
+            <div class="col-md-3">                
+                <ej-checkbox id="ignoreMixedCaseWords" ej-check-box="e-checked.bind:value;" e-on-change.trigger="onIgnoreMixedCaseWords($event)"></ej-checkbox>
+            </div>
+            <div class="col-md-3">Ignore Url</div>
+            <div class="col-md-3">                
+                <ej-checkbox id="ignoreUrl" ej-check-box="e-checked.bind:value;" e-on-change.trigger="onIgnoreUrl($event)"></ej-checkbox>
+            </div>
+        </div><br/>
+        <div class="row">
+            <div class="col-md-3">Ignore FileNames</div>
+            <div class="col-md-3">
+                <ej-checkbox id="ignoreFileNames" ej-check-box="e-checked.bind:value;" e-on-change.trigger="onIgnoreFileNames($event)"></ej-checkbox>
+            </div>
+            <div class="col-md-3">Ignore Email Address</div>
+            <div class="col-md-3">
+                <ej-checkbox id="ignoreEmailAddress" ej-check-box="e-checked.bind:value;" e-on-change.trigger="onIgnoreEmailAddress($event)"></ej-checkbox>
+            </div>
+        </div><br/>
+        <div class="row">
+            <div class="col-md-3">Maximum Suggestion Count</div>
+            <div class="col-md-3">                
+                <input id="maxSuggestionCount" type="text" ej-numeric-textbox="e-value.bind:numericValue;e-width.bind:cWidth" e-on-change.trigger="maxSuggestionChange($event)" />
+            </div>
+            <div class="col-md-3 aligntop">MisspellWordCss</div>
+            <div class="col-md-3">
+                <input type="text" id="misspellWordCss" ej-drop-down-list="e-data-source.bind:cssNameList;e-fields.bind:cssFields;e-selected-index:2" e-on-change.trigger="changeErrorHighlight($event)"/>                
+            </div>
+        </div><br/>
+        <div class="row">            
+            <div class="col-md-3">Ignore Words</div>
+            <div class="col-md-3">                
+                <input type="text" id="ignoreWordsDropDown" ej-drop-down-list="e-width:200px;e-data-source.bind:dataSource;e-fields.bind:fields;e-watermark-text:Select your ignore words;e-show-checkbox:true;" e-on-change.trigger="addIgnoreWords($event)"/>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,3 +1,7 @@
 label.clslab {
     margin: 5px;
 }
+td.chkrad {
+    display: inline-block;
+    width: 100px;
+}

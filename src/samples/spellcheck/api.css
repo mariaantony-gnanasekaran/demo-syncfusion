@@ -1,0 +1,15 @@
+.e-spellcheck {
+    display: block;
+}
+
+.spellbutton {
+    padding-top: 15px;
+}
+
+.errorword {
+    color: red;
+}
+
+.highlighter {
+    color: blue;
+}

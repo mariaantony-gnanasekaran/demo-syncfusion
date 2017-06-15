@@ -1,7 +1,6 @@
 export class BasicUse {
   constructor() {
      // declaration
-    this.width = '240px';
     this.template = '<div><img class="eimg" src="images/Employees/${eimg}.png" alt="employee"/>' +
                          '<div class="ename"> ${text} </div><div class="desig"> ${desig} </div><div class="cont"> ${country} </div></div>';
     this.empList = [

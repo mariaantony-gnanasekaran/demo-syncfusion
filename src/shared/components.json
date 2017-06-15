@@ -212,9 +212,13 @@
             "status": "done",
             "moduleId": "rte"
         },
-		 "Signautre": {
+        "Signautre": {
             "status": "done",
             "moduleId": "signature"
+        },
+        "SpellCheck": {
+            "status": "done",
+            "moduleId": "spellcheck"
         }
     },
     "File Viewer": {

@@ -1,13 +1,11 @@
 export class RemoteData {
     constructor() {
       let dataManager = ej.DataManager({ //eslint-disable-line new-cap
-        url: 'http://mvc.syncfusion.com/OdataServices/Northwnd.svc',
+        url: 'http://js.syncfusion.com/demos/ejServices/api/Schedule/LoadData',
         crossDomain: true
       });
-      let query = ej.Query().from('Events').take(10); //eslint-disable-line new-cap
       this.AppointmentList = {
         dataSource: dataManager,
-        query: query,
         id: 'Id',
         subject: 'Subject',
         startTime: 'StartTime',

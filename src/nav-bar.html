@@ -1,26 +1,41 @@
 <template>
-    <ul id="navbar" ej-menu="e-width:100%" e-on-click.trigger="higlightMenuItem($event)">
-      <li>
-        <a route-href="route: samples">
+  <require from='./themes/index'></require>
+  <style>
+   #navbar #online{
+      display:inline-block !important;
+    }
+     #navbar .themeSwitcher
+  {
+    display: none;
+  }
+    </style>
+  <ul id="navbar" ej-menu="e-width:100%" e-on-click.trigger="higlightMenuItem($event)">
+    <li>
+      <a route-href="route: samples">
           Components Catalog
-          </a>
-      </li>
-      <li >
-        <a route-href="route: dashboard">Dashboard</a>
-      </li>
-      <li>
-        <a route-href="route: about">About</a>
-      </li>
+        </a>
+    </li>
+    <li>
+      <a route-href="route: dashboard">Dashboard</a>
+    </li>
+    <li>
+      <a route-href="route: about">About</a>
+    </li>
 
-      <li>
-        <a route-href="route: installation">Installation</a>
-      </li>
+    <li>
+      <a route-href="route: installation">Installation</a>
+    </li>
 
-      <li>
-        <a route-href="route: project-status">Project Status</a>
-      </li>
-      <li>
-        <a route-href="route: help">Help</a>
-      </li>
-    </ul>
+    <li>
+      <a route-href="route: project-status">Project Status</a>
+    </li>
+    <li>
+      <a route-href="route: help">Help</a>
+    </li>
+    <li id="${themeID}" class="themeSwitcher" click.delegate="showDialog()">
+      <a>Theme</a>
+    </li>
+  </ul>
+  <index  ref="theme">
+  <index>
 </template>

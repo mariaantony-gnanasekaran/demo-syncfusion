@@ -23,20 +23,20 @@ export class ViewCustomization {
     }
     constructor() {
       this.Views = ['CustomView'];
-      this.Start = new Date(2014, 4, 7);
-      this.End = new Date(2014, 5, 10);
+      this.Start = new Date(2017, 5, 7);
+      this.End = new Date(2017, 6, 10);
       this.dropDownData = ['Agenda', 'Month', 'Day', 'Week', 'WorkWeek', 'CustomView'];
       this.RenderDates = {
-        start: '2014/4/7',
-        end: '2014/4/25'
+        start: '2017/5/7',
+        end: '2017/5/25'
       };
       this.AppointmentList = {
         dataSource: [
           {
             Id: 600,
             Subject: 'Ladies Mogals Qualification',
-            StartTime: '2014/4/2 18:00:00',
-            EndTime: '2014/4/2 20:00:00',
+            StartTime: '2017/6/2 18:00:00',
+            EndTime: '2016/6/2 20:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -46,8 +46,8 @@ export class ViewCustomization {
           }, {
             Id: 601,
             Subject: "Men's Mogals Qualification",
-            StartTime: '2014/4/2 14:00:00',
-            EndTime: '2014/4/2 16:00:00',
+            StartTime: '2017/6/2 14:00:00',
+            EndTime: '2017/6/2 16:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -57,8 +57,8 @@ export class ViewCustomization {
           }, {
             Id: 602,
             Subject: "Men's 500m race",
-            StartTime: '2014/4/3 17:00:00',
-            EndTime: '2014/4/3 18:00:00',
+            StartTime: '2017/6/3 17:00:00',
+            EndTime: '2017/6/3 18:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -68,8 +68,8 @@ export class ViewCustomization {
           }, {
             Id: 603,
             Subject: 'Opening ceremony',
-            StartTime: '2014/4/1 09:00:00',
-            EndTime: '2014/4/1 12:00:00',
+            StartTime: '2017/6/1 09:00:00',
+            EndTime: '2017/6/1 12:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -78,8 +78,8 @@ export class ViewCustomization {
           }, {
             Id: 604,
             Subject: 'Finals',
-            StartTime: '2014/4/4 10:00:00',
-            EndTime: '2014/4/4 17:30:00',
+            StartTime: '2017/6/4 10:00:00',
+            EndTime: '2017/6/4 17:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -88,8 +88,8 @@ export class ViewCustomization {
           }, {
             Id: 605,
             Subject: 'Final presentation',
-            StartTime: '2014/4/4 18:00:00',
-            EndTime: '2014/4/4 19:30:00',
+            StartTime: '2017/6/4 18:00:00',
+            EndTime: '2017/6/4 19:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',

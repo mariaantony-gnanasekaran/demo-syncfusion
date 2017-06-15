@@ -3,7 +3,8 @@ export class App {
     config.title = 'Syncfusion Aurelia Catalog Application';
 
     config.map([
-      { name: 'about',             route: ['', 'about'],                moduleId: 'about/about',                 title: 'About' },
+      { name: 'home',             route: '',                  redirect: 'about/about' },
+      { name: 'about',             route: 'about',                moduleId: 'about/about',                 title: 'About' },
       { name: 'help',              route: 'help',                       moduleId: 'help/help',                   title: 'Help' },
       { name: 'docs',              route: 'help/docs/:category/:file',  moduleId: 'help/help',                   title: 'Help' },
       { name: 'installation',      route: 'installation',               moduleId: 'installation/installation',   title: 'Installation' },

@@ -9,10 +9,11 @@
     <div id="wait" style="position: relative; left: 40px; top:55px">
     </div>
     <div style="position: relative; left: 36px;">
-        <ej-range-navigator id="navigator" e-size-settings.bind="sizeSettings" e-data-source.bind="dataSource" e-x-name="XValue"
+        <ej-range-navigator id="navigator" e-on-load.trigger="onLoad($event)" e-size-settings.bind="sizeSettings" e-data-source.bind="dataSource" e-x-name="XValue"
                             e-y-name="YValue" e-selected-range-settings.bind="selectedRangeSettings" e-enable-scrollbar="true" e-scroll-range-settings.bind="scrollRangeSettings"
                             e-on-range-changed.trigger="onchartloaded($event)" e-on-scroll-start.trigger="onScrollStart($event)" e-0n-scroll-changed.trigger="onScrollchange($event)"
                             e-on-scroll-end.trigger="onScrollbarChanged($event)" >
         </ej-range-navigator>
     </div>
+     <theme view-model.ref="update"></theme>
 </template>

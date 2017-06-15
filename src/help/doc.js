@@ -24,15 +24,12 @@ export class Doc {
         id: this.encode(categoryKey),
         files: this.registry[categoryKey]
       };
-
       if (category.name.indexOf('_') > -1 || category.files.some(i => i.name.indexOf('_') > -1)) {
         throw new Error('Documentation categories or file names can\t contain underscore (_)');
       }
-
       this.categories.push(category);
     }
   }
-
 
   attached() {
     $('.collapse').collapse();
@@ -44,12 +41,25 @@ export class Doc {
   // - selects the item in panelbar
   switchPage(fileName, categoryName) {
     let file = this.getFileByName(fileName, categoryName);
-
     if (file) {
       this.activeDoc = file.path;
-
+      if (window.theme) {
+        if (window.theme.includes('dark') || window.theme.includes('contrast')) {
+          this.activeDoc = file.themePath;
+        } else {
+          this.activeDoc = file.path;
+        }
+      }
       this.selectInAccordion(fileName, categoryName);
     }
+  }
+
+  created() {
+    window.onclick = () => {
+      if (this.params.file && this.params.category) {
+        this.switchPage(this.params.file, this.params.category);
+      }
+    };
   }
 
   routeChanged(e) {

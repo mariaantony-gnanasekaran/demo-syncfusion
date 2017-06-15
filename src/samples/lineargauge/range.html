@@ -1,6 +1,7 @@
 <template>
     <div align="center">
-        <ej-linear-gauge id="verticalgauge" e-enable-animation="false" e-label-color="#8c8c8c" e-width="500" e-scales.bind="scales">
+        <ej-linear-gauge id="verticalgauge" e-on-load.trigger="onLoad($event)"  e-enable-animation="false" e-label-color="#8c8c8c" e-width="500" e-scales.bind="scales">
         </ej-linear-gauge>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

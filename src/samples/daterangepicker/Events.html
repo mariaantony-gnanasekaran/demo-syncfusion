@@ -1,0 +1,17 @@
+<template>
+<require from="./Common.css"></require>
+  <div class="row">
+      <div class="frame"><div>
+        <label>Select DateRange</label> 
+        <input id="daterangepick" ej-date-range-picker="e-value.bind:daterangeValue;e-width.bind:'100%'" e-on-create.trigger="logger.log('DateRangePicker has been created')" e-on-open.trigger="logger.log('DateRangePicker popup has been opened.')" e-on-close.trigger="logger.log('DateRangePicker popup has been closed.')" e-on-change.trigger="onChange($event)" ></input>
+      </div>
+    </div>
+  </div>  
+   <div id="Logger" class="box">
+      <h4>Event Trace</h4>
+       <logger view-model.ref="logger"></logger>
+       <div>
+           <button class="logger-button" ej-button="e-text:Clear" e-on-click.trigger = "logger.clear()" ></button>
+       </div>
+   </div>
+</template>

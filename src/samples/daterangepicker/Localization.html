@@ -1,0 +1,30 @@
+<template>
+  <require from="syncfusion-ej-global/i18n/ej.culture.fr-FR.min.js"></require>
+  <require from="syncfusion-ej-global/i18n/ej.culture.de-DE.min.js"></require>
+    <require from="syncfusion-ej-global/l10n/ej.localetexts.fr-FR.min.js"></require>
+    <require from="syncfusion-ej-global/l10n/ej.localetexts.de-DE.min.js"></require>
+  <require from="./Common.css"></require>
+  <div class="row">
+      <div class="frame"><div>
+        <label>Select DateRange</label>    
+        <input id="daterangepick" ej-date-range-picker="e-value.bind:daterangeValue;e-locale.bind:localeValue;e-watermark-text.bind:placeholder;e-width.bind:'100%'"></input>
+      </div>
+    </div>
+  </div>  
+   <div id="property-window" class="box wide">
+     <div class="row">
+       <div class="col-sm-2">   
+          <div> Select Culture </div>               
+       </div>
+       <div class="col-sm-3">        
+           <input type="text" ej-drop-down-list="e-target-id.bind:target;e-watermark-text.bind:watermarkText;e-value.two-way:updateLocale" id="selectLocale" />
+       <div id="localelist">
+            <ul>
+                <li>en-US</li>
+                <li>fr-FR</li>
+                <li>de-DE</li>
+        </div>   
+       </div>
+     </div>
+  </div>
+</template>

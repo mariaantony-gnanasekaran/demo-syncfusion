@@ -7,17 +7,17 @@ export class RadialTree {
         },
         {
           'Id': 1, 'Name': 'Ana Trujillo', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/radial/Thomas.PNG', 'IsExpand': 'false',
+          'ImageUrl': 'src/samples/diagram/images/radial/Thomas.png', 'IsExpand': 'false',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {
           'Id': 2, 'Name': 'Lino Rodri', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/radial/Robin.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/radial/Robin.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {
           'Id': 3, 'Name': 'Philip Cramer', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/radial/Robin.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/radial/Robin.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {
@@ -57,12 +57,12 @@ export class RadialTree {
         },
         {
           'Id': 11, 'Name': 'Nardo Batista', 'Designation': 'Project Lead',
-          'ImageUrl': 'src/samples/diagram/images/radial/Maria.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/radial/Maria.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 89
         },
         {
           'Id': 12, 'Name': 'Michael Holz', 'Designation': 'Project Lead',
-          'ImageUrl': 'src/samples/diagram/images/radial/Thomas.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/radial/Thomas.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 89
         },
         {
@@ -142,12 +142,12 @@ export class RadialTree {
         },
         {
           'Id': 28, 'Name': 'L�cia Carvalho', 'Designation': 'Senior S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/radial/Robin.PNG', 'IsExpand': 'false',
+          'ImageUrl': 'src/samples/diagram/images/radial/Robin.png', 'IsExpand': 'false',
           'RatingColor': '#93B85A', 'ReportingPerson': 12
         },
         {
           'Id': 29, 'Name': 'Alej Camino', 'Designation': 'Senior S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/radial/Thomas.PNG', 'IsExpand': 'false',
+          'ImageUrl': 'src/samples/diagram/images/radial/Thomas.png', 'IsExpand': 'false',
           'RatingColor': '#93B85A', 'ReportingPerson': 13
         },
         {
@@ -252,12 +252,12 @@ export class RadialTree {
         },
         {
           'Id': 50, 'Name': 'Paula Wilson', 'Designation': 'S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/radial/eric.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/eric.png', 'IsExpand': 'None',
           'RatingColor': '#68C2DE', 'ReportingPerson': 43
         },
         {
           'Id': 51, 'Name': 'Jose Pavarotti', 'Designation': 'S/w Engg',
-          'ImageUrl': 'src/samples/diagram/images/radial/Maria.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/Maria.png', 'IsExpand': 'None',
           'RatingColor': '#D46E89', 'ReportingPerson': 43
         },
         {
@@ -362,32 +362,32 @@ export class RadialTree {
         },
         {
           'Id': 72, 'Name': 'Horst Kloss', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/radial/Clayton.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/Clayton.png', 'IsExpand': 'None',
           'RatingColor': '#68C2DE', 'ReportingPerson': 70
         },
         {
           'Id': 73, 'Name': 'Sergio roel', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/radial/image55.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/image55.png', 'IsExpand': 'None',
           'RatingColor': '#EBB92E', 'ReportingPerson': 37
         },
         {
           'Id': 74, 'Name': 'Mauri Moroni', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/radial/image53.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/image53.png', 'IsExpand': 'None',
           'RatingColor': '#93B85A', 'ReportingPerson': 60
         },
         {
           'Id': 75, 'Name': 'Janete Limeira', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/radial/image51.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/image51.png', 'IsExpand': 'None',
           'RatingColor': '#93B85A', 'ReportingPerson': 29
         },
         {
           'Id': 76, 'Name': 'Jonas Bergsen', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/radial/image53.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/image53.png', 'IsExpand': 'None',
           'RatingColor': '#68C2DE', 'ReportingPerson': 18
         },
         {
           'Id': 77, 'Name': 'Miguel Angel', 'Designation': 'Project Trainee',
-          'ImageUrl': 'src/samples/diagram/images/radial/eric.PNG', 'IsExpand': 'None',
+          'ImageUrl': 'src/samples/diagram/images/radial/eric.png', 'IsExpand': 'None',
           'RatingColor': '#D46E89', 'ReportingPerson': 18
         },
         {
@@ -447,7 +447,7 @@ export class RadialTree {
         },
         {
           'Id': 89, 'Name': 'Jytte Petersen', 'Designation': 'Project Manager',
-          'ImageUrl': 'src/samples/diagram/images/radial/image55.PNG', 'IsExpand': 'true',
+          'ImageUrl': 'src/samples/diagram/images/radial/image55.png', 'IsExpand': 'true',
           'RatingColor': '#68C2DE', 'ReportingPerson': 'parent'
         },
         {

@@ -55,6 +55,7 @@
 .dashboardSamplebutton {
     margin-left: 20px;
     margin-top: -43px;
+    position: absolute;
 }
 .imgstyle {
     min-width: 316px;
@@ -72,12 +73,35 @@
         border-radius: 0;
         text-decoration: none;
 		padding: 0.1em .4em .3em;
-        background: linear-gradient(to bottom,#3277b2,#296293);
+
 }
 .anchorclass :hover *{
         border-color: #cecece;
         color: #333;
 }
+
+.codebutton .anchorclass {
+    float: left;
+    height: 25px !important;
+    border-radius: 0 !important;
+    line-height: 23px;
+    margin-left: 132px;
+    margin-top: -43px;
+    padding-left: 4px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.codebutton .codeimg:before {
+    content: "\e780";
+    font-size: 18px;
+    margin: -5px 0px 0 -3px;
+    
+}
+.codebutton{
+    position: absolute;
+}
+
 @media only screen and (max-width:818px)  {
 .dashboard {  
     margin: 0px auto;

@@ -1,6 +1,7 @@
 <template>
     <div align="center">
-        <ej-circular-gauge id="radialgaugeclock" e-background-color="transparent" e-width="500" e-scales.bind="scales" e-enable-animation="false">
+        <ej-circular-gauge id="radialgaugeclock" e-on-load.trigger="onLoad($event)" e-background-color="transparent" e-width="500" e-scales.bind="scales" e-enable-animation="false">
         </ej-circular-gauge>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

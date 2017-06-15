@@ -1,22 +1,23 @@
 <template>
     <div align="center">
-        <ej-bullet-graph id="graph" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings"
+        <ej-bullet-graph id="graph" e-on-load.trigger="onLoad($event)" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings"
                          e-qualitative-ranges.bind="qualitativeRanges" e-caption-settings.bind="captionSettings">
         </ej-bullet-graph>
     </div>
     <div align="center">
-        <ej-bullet-graph id="graph1" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings1"
+        <ej-bullet-graph id="graph1" e-on-load.trigger="onLoad($event)" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings1"
                          e-qualitative-ranges.bind="qualitativeRanges1" e-caption-settings.bind="captionSettings1">
         </ej-bullet-graph>
     </div>
     <div align="center">
-        <ej-bullet-graph id="graph2" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings2"
+        <ej-bullet-graph id="graph2" e-on-load.trigger="onLoad($event)" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings2"
                          e-qualitative-ranges.bind="qualitativeRanges2" e-caption-settings.bind="captionSettings2">
         </ej-bullet-graph>
     </div>
     <div align="center">
-        <ej-bullet-graph id="graph3" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings3"
+        <ej-bullet-graph id="graph3" e-on-load.trigger="onLoad($event)" e-qualitative-range-size="32" e-height="140" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings3"
                          e-qualitative-ranges.bind="qualitativeRanges3" e-caption-settings.bind="captionSettings3">
         </ej-bullet-graph>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

@@ -1,26 +1,31 @@
 export class QueryCellInfo {
-    onAppointmentWindowOpen(args) {
-		if (this._appointmentAddWindow.find("#EventType").length == 0) {
-			let items = [
-				{ text: 'Public Event', value: 'Public Event' },
-				{ text: 'Holiday', value: 'Holiday' },
-				{ text: 'Maintenance', value: 'Maintenance' },
-				{ text: 'Commercial Event', value: 'Commercial Event' },
-				{ text: 'Family Event', value: 'Family Event' }
-			];
-			$("<tr><td class='e-leftfields e-textlabel'>Event Type:</td><td class='e-rightfields' colspan='3'><input type='text' id='EventType'/></td></tr>").insertAfter(this._appointmentAddWindow.find("." + this._id + "parrow"));
-			this._appointmentAddWindow.find("#EventType").ejDropDownList({
-                dataSource: items,
-                height: 30,
-                width: 300,
-                popupHeight: 200,
-                popupWidth: 300,
-            });
-		}
-		if (!ej.isNullOrUndefined(args.detail.appointment) && !ej.isNullOrUndefined(args.detail.appointment.EventType)) {
-			$('#EventType').ejDropDownList('option', 'value', args.detail.appointment.EventType);
-		}
+  onAppointmentWindowOpen(event) {
+	let args = event.detail;
+	var schArgs = $("#Schedule1").ejSchedule("instance");
+    if (schArgs._appointmentAddWindow.find('#EventType').length === 0) {
+      let items = [
+        { text: 'Public Event', value: 'Public Event' },
+        { text: 'Holiday', value: 'Holiday' },
+        { text: 'Maintenance', value: 'Maintenance' },
+        { text: 'Commercial Event', value: 'Commercial Event' },
+        { text: 'Family Event', value: 'Family Event' }
+      ];
+      $("<tr><td class='e-leftfields e-textlabel'>Event Type:</td><td class='e-rightfields' colspan='3'><input type='text' id='EventType'/></td></tr>").insertAfter(schArgs._appointmentAddWindow.find('.' + schArgs._id + 'parrow'));
+      schArgs._appointmentAddWindow.find('#EventType').ejDropDownList({
+        dataSource: items,
+        height: 30,
+        width: 300,
+        popupHeight: 200,
+        popupWidth: 300
+      });
     }
+    if (!ej.isNullOrUndefined(args.appointment) && !ej.isNullOrUndefined(args.appointment.EventType)) {
+      schArgs._appointmentAddWindow.find("#EventType").ejDropDownList('option', 'value', args.appointment.EventType);
+    }
+	else {              
+	  schArgs._appointmentAddWindow.find("#EventType").ejDropDownList("option", "value","");
+	}
+  }
 
     check(event) {
       let args = event.detail;
@@ -186,8 +191,8 @@ export class QueryCellInfo {
           {
             Id: 1,
             Subject: 'Maintenance',
-            StartTime: '2014/4/30 02:30:00',
-            EndTime: '2014/4/30 04:00:00',
+            StartTime: '2017/5/30 02:30:00',
+            EndTime: '2017/5/30 04:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -198,8 +203,8 @@ export class QueryCellInfo {
           {
             Id: 2,
             Subject: 'Technology Book Stall',
-            StartTime: '2014/5/5 12:30:00',
-            EndTime: '2014/5/5 16:00:00',
+            StartTime: '2017/6/5 12:30:00',
+            EndTime: '2017/6/5 16:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -210,8 +215,8 @@ export class QueryCellInfo {
           {
             Id: 3,
             Subject: 'Technology Book Stall',
-            StartTime: '2014/5/15 12:30:00',
-            EndTime: '2014/5/15 16:00:00',
+            StartTime: '2017/6/15 12:30:00',
+            EndTime: '2017/6/15 16:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -222,8 +227,8 @@ export class QueryCellInfo {
           {
             Id: 4,
             Subject: 'Technology Book Stall',
-            StartTime: '2014/5/10 12:30:00',
-            EndTime: '2014/5/10 16:00:00',
+            StartTime: '2017/6/10 12:30:00',
+            EndTime: '2017/6/10 16:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -234,8 +239,8 @@ export class QueryCellInfo {
           {
             Id: 5,
             Subject: 'Annual Conference',
-            StartTime: '2014/5/5 17:30:00',
-            EndTime: '2014/5/5 21:00:00',
+            StartTime: '2017/6/5 17:30:00',
+            EndTime: '2017/6/5 21:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -246,8 +251,8 @@ export class QueryCellInfo {
           {
             Id: 6,
             Subject: 'Annual Conference',
-            StartTime: '2014/5/15 17:30:00',
-            EndTime: '2014/5/15 21:00:00',
+            StartTime: '2017/6/15 17:30:00',
+            EndTime: '2017/6/15 21:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -257,8 +262,8 @@ export class QueryCellInfo {
           }, {
             Id: 7,
             Subject: 'Annual Conference',
-            StartTime: '2014/5/10 17:30:00',
-            EndTime: '2014/5/10 21:00:00',
+            StartTime: '2017/6/10 17:30:00',
+            EndTime: '2017/6/10 21:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -268,8 +273,8 @@ export class QueryCellInfo {
           }, {
             Id: 8,
             Subject: 'IMI Meeting',
-            StartTime: '2014/5/5 15:30:00',
-            EndTime: '2014/5/5 18:30:00',
+            StartTime: '2017/6/5 15:30:00',
+            EndTime: '2017/6/5 18:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: 'International Management Institute',
@@ -279,8 +284,8 @@ export class QueryCellInfo {
           }, {
             Id: 9,
             Subject: 'George Birthday Celebration',
-            StartTime: '2014/5/5 16:00:00',
-            EndTime: '2014/5/5 19:00:00',
+            StartTime: '2017/6/5 16:00:00',
+            EndTime: '2017/6/5 19:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '4th Year Celebration',
@@ -290,8 +295,8 @@ export class QueryCellInfo {
           }, {
             Id: 10,
             Subject: 'John Wedding Aniversary',
-            StartTime: '2014/5/2 17:00:00',
-            EndTime: '2014/5/2 20:00:00',
+            StartTime: '2017/6/2 17:00:00',
+            EndTime: '2017/6/2 20:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '1st Year Celebration',

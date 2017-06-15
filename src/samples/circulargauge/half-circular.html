@@ -1,7 +1,8 @@
 <template>
     <div align="center">
-        <ej-circular-gauge id="radialgauge" e-background-color="transparent" e-width="500" e-radius="130" e-scales.bind="scales"
+        <ej-circular-gauge id="radialgauge" e-on-load.trigger="onLoad($event)" e-background-color="transparent" e-width="500" e-radius="130" e-scales.bind="scales"
                            e-read-only="false" e-enable-animation="false" e-gauge-position="topcenter" e-distance-from-corner="10" e-frame.bind="frame">
         </ej-circular-gauge>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

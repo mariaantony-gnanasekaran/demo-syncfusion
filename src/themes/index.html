@@ -1,0 +1,8 @@
+<template>
+    <require from="./index.css"></require>
+    <div>
+        <div repeat.for="theme of name" click.delegate="click(theme)" class="theme-position">
+            <span class="theme ${themeInfo[theme].path}"> &nbsp</span>
+            <span class="theme-text">${theme}</span>
+        </div>
+</template>

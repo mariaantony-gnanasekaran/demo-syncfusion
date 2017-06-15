@@ -4,7 +4,7 @@
 
 1. Create a `vendors` folder in the root (at the same level as src or dist) 
 2. Download Synfusion Essential Studio for JavaScript from [here](https://www.syncfusion.com/downloads/javascript).
-3. Extract the `scripts` and `css` folders as `scripts/ej` and `css` into the `vendors` folder.
+3. Extract the `scripts` and `css` folders as `Scripts/ej` and `Content/ej` into the `vendors` folder.
 4. Open `config.js` and add a couple of path mappings:
 
    ```   
@@ -19,7 +19,6 @@
       "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1",
       "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.2",
       "jquery": "npm:jquery@2.2.3",                                               <----
-      "jquery-easing": "npm:jquery.easing@1.3.2",                                 <----
       "jquery-validation": "npm:jquery-validation@1.15.0",                        <----
       "jquery-validation-unobtrusive": "npm:jquery-validation-unobtrusive@3.2.6", <----
       "jsrender": "npm:jsrender@0.9.75",                                          <----

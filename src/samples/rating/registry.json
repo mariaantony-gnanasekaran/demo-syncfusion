@@ -15,7 +15,7 @@
         "files": ["html", "js"],
 		"gist": "f0e0cb053da5374b93f1e1fb4fc41137"
     },
-    "Events": {
+    "events": {
         "files": ["html", "js"],
 		"gist": "442aa3fc5a04706d4c27c5aa36fb4878"
     }    

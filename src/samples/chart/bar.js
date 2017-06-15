@@ -9,6 +9,7 @@ export class BasicUse {
     this.primaryYAxis = {range: {min: 3, max: 12, interval: 1}, labelFormat: '{value}%'};
   }
   onchartload(sender) {
+    this.update.loadChartTheme();
     if (!ej.util.isNullOrUndefined(window.orientation) && sender) {          //to modify chart properties for mobile view
       let model = sender.detail.model;
       let seriesLength = model.series.length;

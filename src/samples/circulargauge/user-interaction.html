@@ -1,9 +1,10 @@
 <template>
     <div align="center">
-        <ej-circular-gauge id="radialgauge" e-enable-animation="false" e-read-only="false" e-background-color="transparent" e-width="500" e-scales.bind="scales">
+        <ej-circular-gauge id="radialgauge" e-on-load.trigger="onLoad($event)" e-enable-animation="false" e-read-only="false" e-background-color="transparent" e-width="500" e-scales.bind="scales">
         </ej-circular-gauge>
     </div>
     <div align="center">
         <h5> Hold and Drag the pointer needle to interact with it</h5>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

@@ -50,8 +50,8 @@ export class ResourceGrouping {
           {
             Id: 100,
             Subject: 'Bering Sea Gold',
-            StartTime: '2014/4/2 09:00:00',
-            EndTime: '2014/4/2 10:30:00',
+            StartTime: '2017/6/2 09:00:00',
+            EndTime: '2017/6/2 10:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -62,8 +62,8 @@ export class ResourceGrouping {
           }, {
             Id: 101,
             Subject: 'Hello Sea Gold',
-            StartTime: '2014/4/2 04:00:00',
-            EndTime: '2014/4/2 05:00:00',
+            StartTime: '2017/6/2 04:00:00',
+            EndTime: '2017/6/2 05:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -73,8 +73,8 @@ export class ResourceGrouping {
           }, {
             Id: 105,
             Subject: 'Daily Planet',
-            StartTime: '2014/4/5 05:00:00',
-            EndTime: '2014/4/5 06:30:00',
+            StartTime: '2017/6/5 05:00:00',
+            EndTime: '2017/6/5 06:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -85,8 +85,8 @@ export class ResourceGrouping {
           }, {
             Id: 106,
             Subject: 'Alaska: The Last Frontier',
-            StartTime: '2014/4/3 05:00:00',
-            EndTime: '2014/4/3 06:00:00',
+            StartTime: '2017/6/3 05:00:00',
+            EndTime: '2017/6/3 06:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -96,9 +96,9 @@ export class ResourceGrouping {
             categoryId: 1, roomId: '1', ownerId: '5'
           }, {
             Id: 109,
-            Subject: 'MayDay',
-            StartTime: '2014/3/30 06:30:00',
-            EndTime: '2014/3/30 07:30:00',
+            Subject: 'Sports Day',
+            StartTime: '2017/5/30 06:30:00',
+            EndTime: '2017/5/30 07:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',

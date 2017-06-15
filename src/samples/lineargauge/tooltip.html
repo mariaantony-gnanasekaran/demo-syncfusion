@@ -1,7 +1,8 @@
 <template>
     <div align="center">
-        <ej-linear-gauge id="verticalgauge" e-label-color="#8c8c8c" e-width="500" e-scales.bind="scales" e-tooltip.bind="tooltip"
+        <ej-linear-gauge id="verticalgauge" e-on-load.trigger="onLoad($event)" e-label-color="#8c8c8c" e-width="500" e-scales.bind="scales" e-tooltip.bind="tooltip"
                          e-enable-animation="false">
         </ej-linear-gauge>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

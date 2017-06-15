@@ -46,7 +46,7 @@ Each of the page showing a Syncfusion JavaScript control converted to an Aurelia
 <p align=center>
  <img src="images/help/about/grid-view.png"></img>
  <br><br>
-Image 5
+Image 4
 </p>
 <br>
 
@@ -55,7 +55,7 @@ Image 5
 <p align=center>
   <img src="images/help/about/grid-view-model.png"></img>
  <br><br>
-Image 6
+Image 5
 </p>
 <br>
 
@@ -64,5 +64,5 @@ Image 6
 <p align=center>
   <img src="images/help/about/grid-css.png"></img>
  <br><br>
-Image 7
+Image 6
 </p>

@@ -1,0 +1,12 @@
+<template>
+    <require from="./default.css"></require>
+    <div id="SpellControl">
+        <ej-spell-check id="SpellCheck" contenteditable="true" e-widget.bind="spellcheck" e-dictionary-settings.bind="dictionarySettings" e-context-menu-settings.bind="ContextMenu">
+            Facebook is a social networking service headquartered in Menlo Park, California. Its website was launched on February 4, 2004, by Mark Zuckerberg with his Harvard College roommates and fellow students Eduardo, Andrew McCollum, Dustin and Chris Hughes.
+            The fouders had initially limited the websites membrship to Harvard students, but later expanded it to collges in the Boston area, the Ivy League, and Stanford Univrsity. It graually added support for students at various other universities and later to high-school students.
+        </ej-spell-check>
+    </div>
+    <div class="spellbutton">
+        <input ej-button="e-text:Spell check" e-on-click.trigger="showDialog($event)" id="CheckSpell" />
+    </div>
+</template>

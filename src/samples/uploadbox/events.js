@@ -1,7 +1,7 @@
 export class EventsUploadbox {
   constructor() {
-    this.saveURL = 'http://mvc.syncfusion.com/Services/FileUpload/UploadBox/saveFiles';
-    this.removeURL = 'http://mvc.syncfusion.com/Services/FileUpload/UploadBox/removeFiles';
+    this.saveURL = 'http://js.syncfusion.com/demos/ejServices/api/uploadbox/Save';
+    this.removeURL = 'http://js.syncfusion.com/demos/ejServices/api/uploadbox/Remove';
   }
 
   formatSize(bytes) {
