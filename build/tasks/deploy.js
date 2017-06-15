@@ -30,8 +30,8 @@ gulp.task('deploy-gh-pages', function () {
     ], {
       base: '.'
     })
-    // .pipe(gulp.dest('./dist')); // for test purposes
-    .pipe(ghPages()); // to publish as GitHub pages
+     //.pipe(gulp.dest('./dist')); // for test purposes
+     .pipe(ghPages()); // to publish as GitHub pages
 });
 
 

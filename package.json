@@ -24,7 +24,7 @@
     "e2e": "gulp serve e2e"
   },
   "devDependencies": {
-    "aurelia-bundler": "^0.2.1",
+    "aurelia-bundler": "^0.4.0",
     "aurelia-tools": "^0.1.3",
     "babel": "^5.8.23",
     "babel-eslint": "^4.1.3",
@@ -90,7 +90,7 @@
       "prism": "github:PrismJS/prism@1.3.0",
       "showdown": "github:showdownjs/showdown@1.3.0",
       "showdown-prettify": "npm:showdown-prettify@^1.0.2",
-      "syncfusion-widgets": "npm:syncfusion-javascript@15.1.33",
+      "syncfusion-javascript": "npm:syncfusion-javascript@15.1.33",
       "text": "github:systemjs/plugin-text@^0.0.4"
     },
     "devDependencies": {

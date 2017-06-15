@@ -5,6 +5,7 @@ var bundles = require('../bundles.js');
 var config = {
   force: true,
   packagePath: '.',
+  configPath: './config.js',
   bundles: bundles.bundles
 };
 
