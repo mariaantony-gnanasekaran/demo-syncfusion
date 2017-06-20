@@ -7,6 +7,7 @@
       this.target = 'localelist';
       this.localeValue = 'en-US';
       ej.FileExplorer.Locale['de-DE'] = {
+        Folder: 'Mappe',
         EmptyResult: 'Keine Artikel entsprechen Ihrer Suche nach',
         EmptyFolder: 'Dieser Ordner ist leer',
         ProtectedFolder: 'Sie ist nicht die Berechtigung diesen Ordner zugreifen',
@@ -104,6 +105,7 @@
         }
       };
       ej.FileExplorer.Locale['ar-SA'] = {
+        Folder: 'مجلد',
         EmptyResult: 'لا توجد عناصر تطابق بحثك',
         EmptyFolder: 'هذا المجلد فارغ',
         ProtectedFolder: 'لم يكن لديك حاليا إذن للوصول إلى هذا المجلد',

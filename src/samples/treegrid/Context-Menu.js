@@ -1,12 +1,12 @@
-﻿export class ContextMenu {
+export class ContextMenu {
   constructor() {
     this.columns =  [
-                    { field: 'taskID', headerText: 'Task Id', width: '45' },
+                    { field: 'taskID', headerText: 'Task Id', width: '45', editType: 'numericedit' },
                     { field: 'taskName', headerText: 'Task Name' },
-                    { field: 'startDate', headerText: 'Start Date' },
-                    { field: 'endDate', headerText: 'End Date' },
-                    { field: 'duration', headerText: 'Duration' },
-                    { field: 'progress', headerText: 'Progress' }
+                    { field: 'startDate', headerText: 'Start Date', editType: 'datepicker' },
+                    { field: 'endDate', headerText: 'End Date', editType: 'datepicker' },
+                    { field: 'duration', headerText: 'Duration', editType: 'numericedit' },
+                    { field: 'progress', headerText: 'Progress', editType: 'numericedit' }
     ];
     this.editsettings = {
       allowAdding: true,

@@ -1,6 +1,6 @@
 export class DefaultFunctionalities {
   constructor() {
-    this.save = 'http://mvc.syncfusion.com/Services/FileUpload/UploadBox/saveFiles';
-    this.remove = 'http://mvc.syncfusion.com/Services/FileUpload/UploadBox/removeFiles';
+    this.save = 'http://js.syncfusion.com/demos/ejServices/api/uploadbox/Save';
+    this.remove = 'http://js.syncfusion.com/demos/ejServices/api/uploadbox/Remove';
   }
 }

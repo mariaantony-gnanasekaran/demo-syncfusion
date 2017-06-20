@@ -32,4 +32,7 @@ export class BasicUse {
        }
      }, 1);
    }
+  onLoad() {
+    this.update.loadGaugeTheme();
+  }
 }

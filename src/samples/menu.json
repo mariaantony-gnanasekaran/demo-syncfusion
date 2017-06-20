@@ -59,7 +59,8 @@
         "Rating": "rating",
         "Slider": "slider",
         "RTE": "rte",
-		"Signature" : "signature"
+        "Signature": "signature",
+        "SpellCheck": "spellcheck"
     },
     "File Viewer": {
         "PDF Viewer": "pdfviewer"

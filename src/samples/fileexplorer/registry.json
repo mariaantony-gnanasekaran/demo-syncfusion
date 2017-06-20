@@ -7,7 +7,7 @@
       "files": [ "html", "js" ],
       "gist": "21eb9ee798a6e86fc1b6bdee99904c3e"
     },
-	"Events" : {
+	"events" : {
 	   "default" : false,
         "files": [ "html", "js" ],
         "gist": "3410fdb6f2ef5019a8acdc12ead68b7c"

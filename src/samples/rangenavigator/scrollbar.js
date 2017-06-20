@@ -40,7 +40,11 @@ export class BasicUse {
     range.model.dataSource = data.Open;
     $('#navigator').ejRangeNavigator('redraw');
   }
+  onLoad() {
+    this.update.loadRangeNavigatorTheme();
+  }
   onchartload(sender) {
+    this.update.loadChartTheme();
     let data = this.getdata(new Date(2009, 0, 1), new Date(2010, 2, 1));
     sender.detail.model.series[0].dataSource = data.Open;
     sender.detail.model.series[0].xName = 'XValue';

@@ -7,7 +7,7 @@
         "files": [ "html", "js" ],
         "gist": "090ad5593e4879565b44b60d84c1af1f"
 	  },
-	"Events"  : {
+	"events"  : {
 	  "default" : false,
         "files": [ "html", "js" ],
         "gist": "11cb05648eb2dc2b1c14e35120e6fc44"  
@@ -29,7 +29,7 @@
     "files": [ "html", "js" ],
     "gist": "9f99abe4c079e13b4e1573474400ddd4"
    },
-   "Vertical" : {
+   "vertical" : {
    "default" : false,
     "files": [ "html", "js" ],
     "gist": "fb672202290176b321b5027bbb16b1d8"

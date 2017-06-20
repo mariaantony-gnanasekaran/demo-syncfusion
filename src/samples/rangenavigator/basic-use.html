@@ -1,6 +1,6 @@
 <template>
     <div style="position: relative; left: 36px;">
-        <ej-range-navigator id="navigator" e-size-settings.bind="sizeSettings" e-data-source.bind="dataSource" e-x-name="XValue"
+        <ej-range-navigator id="navigator" e-on-load.trigger="onLoad($event)" e-size-settings.bind="sizeSettings" e-data-source.bind="dataSource" e-x-name="XValue"
                             e-y-name="YValue" e-selected-range-settings.bind="selectedRangeSettings" e-on-range-changed.trigger="onchartloaded($event)">
         </ej-range-navigator>
     </div>
@@ -12,4 +12,5 @@
             </ej-series>
         </ej-chart>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

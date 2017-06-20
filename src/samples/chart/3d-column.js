@@ -9,6 +9,7 @@ export class BasicUse {
     this.primaryYAxis = {majorGridLines: {visible: true, color: '#a9a9a9', opacity: 0.12}};
   }
   onchartload(sender) {
+    this.update.loadChartTheme();
     if (!ej.util.isNullOrUndefined(window.orientation) && sender) {             //to modify chart properties for mobile view
       let model = sender.detail.model;
       let seriesLength = model.series.length;

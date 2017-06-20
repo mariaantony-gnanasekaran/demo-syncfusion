@@ -12,7 +12,7 @@ export class PrintAndExport {
     }
     onExportClick(e) {
       let obj = $('#Schedule1').data('ejSchedule');
-      obj.exportSchedule('http://js.syncfusion.com/ScheduleExport/api/JSScheduleExport/ICSExport', null, null);
+      obj.exportSchedule('http://js.syncfusion.com/demos/ejServices/api/Schedule/IcsExport', null, null);
       e.detail.cancel = true;
     }
 
@@ -25,7 +25,7 @@ export class PrintAndExport {
     }
     onPDFExportClick(e) {
       let obj = $('#Schedule1').data('ejSchedule');
-      obj.exportSchedule('http://js.syncfusion.com/ScheduleExport/api/JSScheduleExport/PDFExport', null, null);
+      obj.exportSchedule('http://js.syncfusion.com/demos/ejServices/api/Schedule/PdfExport', null, null);
       e.detail.cancel = true;
     }
     constructor() {
@@ -33,7 +33,7 @@ export class PrintAndExport {
       this.buttonText = { browse: 'Import' };
       this.dialogAction = { closeOnComplete: true };
       let dataManager = ej.DataManager({ //eslint-disable-line new-cap
-        url: 'http://js.syncfusion.com/ScheduleExport/api/JSScheduleExport/GetScheduleData',
+        url: 'http://js.syncfusion.com/demos/ejServices/api/Schedule/LoadData',
         crossDomain: true
       });
       this.AppointmentList = {

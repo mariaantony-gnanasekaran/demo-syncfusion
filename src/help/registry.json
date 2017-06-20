@@ -3,39 +3,47 @@
     [
       {
         "name": "1. Introduction",
-        "path": "help/docs/about-this-application/introduction.md"
+        "path": "help/docs/about-this-application/introduction.md",
+        "themePath":"help/docs/about-this-application/introduction-dark-theme.md"
       },
       {
         "name": "2. Navigation guide",
-        "path": "help/docs/about-this-application/navigation.md"
+        "path": "help/docs/about-this-application/navigation.md",
+        "themePath":"help/docs/about-this-application/navigation-dark-theme.md"
       },
       {
         "name": "3. Components catalog",
-        "path": "help/docs/about-this-application/components-catalog.md"
+        "path": "help/docs/about-this-application/components-catalog.md",
+        "themePath":"help/docs/about-this-application/components-catalog-dark-theme.md"
       },
       {
         "name": "4. Installation",
-        "path": "help/docs/about-this-application/installation.md"
+        "path": "help/docs/about-this-application/installation.md",
+        "themePath":"help/docs/about-this-application/installation-dark-theme.md"
       },
 
       {
         "name": "5. Project Status",
-        "path": "help/docs/about-this-application/project-status.md"
+        "path": "help/docs/about-this-application/project-status.md",
+        "themePath":"help/docs/about-this-application/project-status-dark-theme.md"
       }
     ],
     "App developers notes":
     [
       {
         "name": "1. What you need to know",
-        "path": "help/docs/app-developers-notes/what-you-need-to-know.md"
+        "path": "help/docs/app-developers-notes/what-you-need-to-know.md",
+        "themePath":"help/docs/app-developers-notes/what-you-need-to-know.md"
       },
       {
         "name" : "2. Loading a subset of controls",
-        "path" : "help/docs/app-developers-notes/loading-subset-of-controls.md"
+        "path" : "help/docs/app-developers-notes/loading-subset-of-controls.md",
+        "themePath":"help/docs/app-developers-notes/loading-subset-of-controls.md"
       },
       {
         "name" : "3. Lazy loading wrappers",
-        "path" : "help/docs/app-developers-notes/lazy-loading-wrappers.md"
+        "path" : "help/docs/app-developers-notes/lazy-loading-wrappers.md",
+        "themePath":"help/docs/app-developers-notes/lazy-loading-wrappers.md"
       }
     ]
 }

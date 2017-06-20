@@ -14,6 +14,9 @@ export class EjDDLCheckBox {
   create() {
     this.target = $('#skillsets').data('ejDropDownList');
   }
+  change(e) {
+    if (this.target.model.uncheckAll == true) this.target.unCheckAll();
+  }
   checkUncheckAll(event) {
     let args = event.detail;
     if (args.isChecked) {

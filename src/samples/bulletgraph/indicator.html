@@ -1,7 +1,8 @@
 <template>
     <div align="center">
-        <ej-bullet-graph id="graph" e-height="400" e-qualitative-range-size="32" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings"
+        <ej-bullet-graph id="graph" e-on-load.trigger="onLoad($event)" e-height="400" e-qualitative-range-size="32" e-quantitative-scale-length="475" e-quantitative-scale-settings.bind="quantitativeScaleSettings"
                          e-qualitative-ranges.bind="qualitativeRanges" e-caption-settings.bind="captionSettings">
         </ej-bullet-graph>
     </div>
+    <theme view-model.ref="update"></theme>
 </template>

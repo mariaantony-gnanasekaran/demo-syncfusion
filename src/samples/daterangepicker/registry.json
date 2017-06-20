@@ -1,0 +1,36 @@
+{
+  "title": "DateRangePicker",
+  "documentation":"http://help.syncfusion.com/js/api/ejdaterangepicker",
+  "samples": {
+    "Default-Functionalities": {
+      "default": true,
+      "files": [ "html", "js" ]
+
+    },
+    "Localization": {
+      "default": false,
+      "files": [ "html", "js" ]
+    },
+    "Preset Ranges": {
+      "default": false,
+      "files": [ "html", "js" ]
+
+    },
+    "API": {
+      "default": false,
+      "files": [ "html", "js" ]
+
+    },
+    "DateTimeRange": {
+      "default": false,
+      "files": [ "html", "js" ]
+
+    },
+     "Events": {
+      "default": false,
+      "files": [ "html","js"]
+
+    }
+  }
+  
+  }

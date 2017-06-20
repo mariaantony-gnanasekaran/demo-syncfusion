@@ -20,6 +20,6 @@ createControl() {
   $('#btn4').ejButton({ size: 'large',  height: 200,  width: 225,  contentType: 'textandimage',  imagePosition: 'imagetop',  prefixIcon: 'e-icon e-diet e-infopageicon'});
   $('#btn5').ejButton({ size: 'lerge',  height: 200,  width: 225,  contentType: 'textandimage',  imagePosition: 'imagetop',  prefixIcon: 'e-icon e-sales e-infopageicon'});
   $('#background').ejDropDownList({ targetID: 'backgroundList',  width: '200px',  text: 'No Background'});
-  $('#theme').ejDropDownList({ targetID: 'themeList',  width: '200px',  text: 'White'});
+  $('#themes').ejDropDownList({ targetID: 'themeList',  width: '200px',  text: 'White'});
 }
 }

@@ -9,13 +9,13 @@
         "swimlane": {
             "files": [ "html", "js" ]
         },
-        "card-Customization": {
+        "card-customization": {
             "files": [ "html", "js" ]
         },
-         "card-Template": {
+         "card-template": {
             "files": [ "html", "js" ]
         },
-        "column-Constraints": { "files": ["html","js" ] },
+        "column-constraints": { "files": ["html","js" ] },
         "context-Menu": {
             "files": [ "html", "js" ]
         },

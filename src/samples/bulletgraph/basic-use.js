@@ -13,4 +13,7 @@ export class BasicUse {
     this.qualitativeRanges3 = [{rangeEnd: 4.3, rangeStroke: '#61a301', rangeOpacity: 1}, {rangeEnd: 7.3, rangeStroke: '#fcda21', rangeOpacity: 1}, {rangeEnd: 10, rangeStroke: '#d61e3f', rangeOpacity: 1}];
     this.captionSettings3 = {textAngle: 0, location: {x: 17, y: 20}, text: 'Revenue YTD', font: {color: null, fontFamily: 'Segoe UI', fontStyle: 'Normal', size: '12px', fontWeight: 'regular', opacity: 1}, subTitle: {textAngle: 0, text: '$ in Thousands', location: {x: 10, y: 35}, font: {color: null, fontFamily: 'Segoe UI', fontStyle: 'Normal ', size: '12px', fontWeight: 'regular', opacity: 1}}};
   }
+  onLoad() {
+    this.update.loadBulletTheme();
+  }
 }

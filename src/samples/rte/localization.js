@@ -57,7 +57,7 @@ export class LocalizationRTE {
       constrainProportions: 'Proportionen',
       linkWebUrl: 'Webadresse',
       linkText: 'Text',
-      linkToolTip: 'Tooltip',
+      linkTooltipLabel: 'Tooltip',
       html5Support: 'Dieses Werkzeug-Symbol nur in HTML5 aktiviert unterstützten Browser',
       linkOpenInNewWindow: 'Link in einem neuen Fenster',
       tableColumns: 'Spalten',
@@ -123,7 +123,7 @@ export class LocalizationRTE {
       lowerroman: 'Lower Roman',
       upperroman: 'Ober Roman',
       none: 'Keine',
-      linktooltip: 'ctrl + Klick Link zu folgen',
+      linkTooltip: 'ctrl + Klick Link zu folgen',
       charSpace: 'Zeichen (mit Leerzeichen )',
       charNoSpace: 'Zeichen (ohne Leerzeichen)',
       wordCount: 'Wortzahl',
@@ -137,8 +137,12 @@ export class LocalizationRTE {
       ReplaceWith: 'Ersetzen mit',
       Replace: 'Ersetzen',
       ReplaceAll: 'Alles ersetzen',
-      FindErrorMsg: 'Konnte den angegebenen Wort gefunden .'
-
+      FindErrorMsg: 'Konnte den angegebenen Wort gefunden',
+      TransBGColor: 'Transparent',
+      w: 'W',
+      c: 'C',
+      customFontColor: 'Mehr Farben...',
+      customBGColor: 'Mehr Farben...'
     };
 
     ej.RTE.Locale['es-ES'] = {
@@ -202,7 +206,7 @@ export class LocalizationRTE {
       constrainProportions: 'Restringir proporciones',
       linkWebUrl: 'Dirección web',
       linkText: 'texto',
-      linkToolTip: 'ToolTip',
+      linkTooltipLabel: 'ToolTip',
       html5Support: 'Este icono de la herramienta sólo disponible en HTML5 apoyó navegadores',
       linkOpenInNewWindow: 'Abrir enlace en una nueva ventana',
       tableColumns: 'No. de Columnas',
@@ -261,7 +265,7 @@ export class LocalizationRTE {
       lowerroman: 'Baja romano',
       upperroman: 'Alta romano',
       none: 'Ninguna',
-      linktooltip: 'ctrl + clic para seguir el enlace',
+      linkTooltip: 'ctrl + clic para seguir el enlace',
       charSpace: 'Caracteres (con espacios)',
       charNoSpace: 'Caracteres (sin espacios)',
       wordCount: 'El recuento de palabras',
@@ -275,7 +279,12 @@ export class LocalizationRTE {
       ReplaceWith: 'Remplazar con',
       Replace: 'Reemplazar',
       ReplaceAll: 'Reemplaza todo',
-      FindErrorMsg: 'No se pudo encontrar la palabra especificada .'
+      FindErrorMsg: 'No se pudo encontrar la palabra especificada',
+      TransBGColor: 'transparente',
+      w: 'W',
+      c: 'C',
+      customFontColor: 'Mas colores...',
+      customBGColor: 'Mas colores...'
     };
   }
   onChange(event) {

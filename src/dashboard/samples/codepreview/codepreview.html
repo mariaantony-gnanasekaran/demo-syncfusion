@@ -1,0 +1,29 @@
+<template>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <strong>Code Preview - ${name}</strong>
+            <slot name="buttons"></slot>
+        </div>
+        <div class="panel-body">
+            <ej-tab id="codepreview" e-allow-keyboard-navigation=false>
+                <ul>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#javascript">JavaScript</a></li>
+                    <li><a href="#css">CSS</a></li>
+                </ul>
+                <div id="html">
+                    <au-code language="markup" url.bind="html">
+                    </au-code>
+                </div>
+                <div id="javascript">
+                    <au-code language="javascript" url.bind="js">
+                    </au-code>
+                </div>
+                <div id="css">
+                    <au-code language="css" url.bind="css">
+                    </au-code>
+                </div>
+            </ej-tab>
+        </div>
+    </div>
+</template>

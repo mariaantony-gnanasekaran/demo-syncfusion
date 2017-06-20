@@ -72,8 +72,8 @@ export class Template {
           {
             Id: 100,
             Subject: 'Bering Sea Gold',
-            StartTime: '2014/4/2 09:00:00',
-            EndTime: '2014/4/2 10:30:00',
+            StartTime: '2017/6/2 09:00:00',
+            EndTime: '2017/6/2 10:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -84,8 +84,8 @@ export class Template {
           }, {
             Id: 101,
             Subject: 'Hello Sea Gold',
-            StartTime: '2014/4/3 04:00:00',
-            EndTime: '2014/4/3 05:00:00',
+            StartTime: '2017/6/3 04:00:00',
+            EndTime: '2017/6/3 05:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -95,8 +95,8 @@ export class Template {
           }, {
             Id: 105,
             Subject: 'Daily Planet',
-            StartTime: '2014/4/7 05:00:00',
-            EndTime: '2014/4/7 06:30:00',
+            StartTime: '2017/6/7 05:00:00',
+            EndTime: '2017/6/7 06:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -107,8 +107,8 @@ export class Template {
           }, {
             Id: 106,
             Subject: 'Alaska: The Last Frontier',
-            StartTime: '2014/4/3 05:00:00',
-            EndTime: '2014/4/3 06:00:00',
+            StartTime: '2017/6/3 05:00:00',
+            EndTime: '2017/6/3 06:00:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -118,9 +118,9 @@ export class Template {
             categoryId: 1, roomId: '1', ownerId: '5'
           }, {
             Id: 109,
-            Subject: 'MayDay',
-            StartTime: '2014/3/31 06:30:00',
-            EndTime: '2014/3/31 07:30:00',
+            Subject: 'Sports Day',
+            StartTime: '2017/5/31 06:30:00',
+            EndTime: '2017/5/31 07:30:00',
             StartTimeZone: 'UTC +05:30',
             EndTimeZone: 'UTC +05:30',
             Description: '',
@@ -145,19 +145,19 @@ export class Template {
       function _getImages(date) {
         switch (new Date(date).getDay()) {
         case 0:
-          return "<img src='images/schedule/cake.png'/>";
+          return "<img src='images/Schedule/cake.png'/>";
         case 1:
-          return "<img src='images/schedule/basketball.png'/>";
+          return "<img src='images/Schedule/basketball.png'/>";
         case 2:
-          return "<img src='images/schedule/rugby.png'/>";
+          return "<img src='images/Schedule/rugby.png'/>";
         case 3:
-          return "<img src='images/schedule/guitar.png'/>";
+          return "<img src='images/Schedule/guitar.png'/>";
         case 4:
-          return "<img src='images/schedule/music.png'/>";
+          return "<img src='images/Schedule/music.png'/>";
         case 5:
-          return "<img src='images/schedule/doctor.png'/>";
+          return "<img src='images/Schedule/doctor.png'/>";
         case 6:
-          return "<img src='images/schedule/beach.png'/>";
+          return "<img src='images/Schedule/beach.png'/>";
         default:
           return null;
         }

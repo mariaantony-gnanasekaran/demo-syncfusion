@@ -48,7 +48,7 @@
             "gist":"66d40fbfa79847fe359581acc95c1329",
 			"requires": ["gantt/Default-Sample.css"]
         },
-        "Strip-Lines": {
+        "Striplines": {
             "files": [ "html", "js" ],
             "gist":"89e1a6c8779ee0572dd5c2b5acf68515",
 			"requires": ["gantt/Default-Sample.css"]

@@ -1,0 +1,18 @@
+{
+    "expenseanalysis": {
+        "name": "Expense Analysis",
+        "filename": "expenseanalysis"
+    },
+    "stockanalysis": {
+        "name": "Stock Analysis",
+        "filename": "stockanalysis"
+    },
+    "salesanalysis": {
+        "name": "Sales Analysis",
+        "filename": "salesanalysis"
+    },
+    "healthtracker": {
+        "name": "Health Tracker",
+        "filename": "healthtracker"
+    }
+}

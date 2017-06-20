@@ -102,7 +102,8 @@ export class Stock {
     }
     getWebAPIData(filename, sender) {
       let dataManger = ej.DataManager({ // eslint-disable-line new-cap
-        url: 'http://mvc.syncfusion.com/Services/api/Stock/' + filename + ''
+        url: 'http://mvc.syncfusion.com/Services/api/Stock/' + filename + '',
+        crossDomain: true
       });
       dataManger.executeQuery(ej.Query()).done((e) => { // eslint-disable-line new-cap
         this.hiloChart.widget.element.ejChart({ 'datasource': this.sethilodatasource(e.result), 'primaryXAxis': this.setHiloRangeXAxis(), 'primaryYAxis': this.setHiloRangeAxis(filename) });

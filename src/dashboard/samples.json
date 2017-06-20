@@ -3,6 +3,7 @@
         "name": "Stock Analysis",
         "moduleId": "./stockanalysis/stockanalysis",
         "imageURL": "images/dashboard/samples/stock_thumb.png",
+        "darkTheme": "images/dashboard/samples/dark-theme-stock_thumb.png",
         "qrURL": "images/dashboard/samples/stock.jpg",
         "description": "Analyze historical stock price and volume data using charts."
     },
@@ -10,6 +11,7 @@
         "name": "Expense Analysis",
         "moduleId": "./expenseanalysis/expenseanalysis",
         "imageURL": "images/dashboard/samples/expense_thumb.png",
+        "darkTheme": "images/dashboard/samples/dark-theme-expense_thumb.png",
         "qrURL": "images/dashboard/samples/expense.jpg",
         "description": "Categorize and analyze expenses to understand how money was spent."
     },
@@ -17,6 +19,7 @@
         "name": "Sales Analysis",
         "moduleId": "./salesanalysis/salesanalysis",
         "imageURL": "images/dashboard/samples/sales_thumb.png",
+        "darkTheme": "images/dashboard/samples/dark-theme-sales_thumb.png",
         "qrURL": "images/dashboard/samples/sales.jpg",
         "description": "Sales analysis app which uses Maps and Range Navigator controls."
     },
@@ -24,6 +27,7 @@
         "name": "Health Tracker",
         "moduleId": "./healthtracker/healthtracker",
         "imageURL": "images/dashboard/samples/health_thumb.png",
+        "darkTheme": "images/dashboard/samples/dark-theme-health_thumb.png",
         "qrURL": "images/dashboard/samples/health.jpg",
         "description": "Visualize food intake and calories burnt using gauges, charts and grids."
     }

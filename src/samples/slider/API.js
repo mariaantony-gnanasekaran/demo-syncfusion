@@ -12,7 +12,7 @@
     GetValue() {
       let sliderObj = $('#slider').ejSlider('instance');
        /*eslint-disable */
-      alert('Selected Date is : ' + sliderObj.getValue());
+      alert('Selected value is : ' + sliderObj.getValue());
        /*eslint-enable */
     }
 }

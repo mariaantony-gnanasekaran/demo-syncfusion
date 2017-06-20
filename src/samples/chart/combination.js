@@ -11,6 +11,7 @@ export class BasicUse {
     this.legend = {visible: true, font: {size: '15px'}, shape: 'seriesType', position: 'Top', itemStyle: {width: 15, height: 15}};
   }
   onchartload(sender) {
+    this.update.loadChartTheme();
     if (!ej.util.isNullOrUndefined(window.orientation) && sender) {            //to modify chart properties for mobile view
       let model = sender.detail.model;
       seriesLength = model.series.length;

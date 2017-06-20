@@ -2,7 +2,7 @@
     <require from="./template.css"></require>
     <div>
         <ej-schedule id="Schedule1" e-width="100%" e-height="525px" e-appointment-settings.bind="AppointmentList" e-views.bind="Views"
-                     e-current-view="Month" e-group.bind="Group" e-resources.bind="Resources" e-current-date="04/03/2014"
+                     e-current-view="Month" e-group.bind="Group" e-resources.bind="Resources" e-current-date="06/05/2017"
                      e-work-cells-template-id="#workTemplate" e-appointment-template-id="#apptemplate" e-show-appointment-navigator="false" e-time-zone="UTC -05:00">
         </ej-schedule>
     </div>
@@ -82,47 +82,47 @@
     <script id="workTemplate" type="text/x-jsrender">
         {{if resource.classname == 'e-parentnode'}} {{:resource.text}} {{else}} {{if date.getDay() == 0 || date.getDay() == 6}}
         <div class="image">
-            <img src='images/schedule/weekend.png' />
+            <img src='images/Schedule/weekend.png' />
             <br /><span class="caption">Weekend</span>
         </div>
         {{else}} {{if view == 'month' && resource.text == 'Party Hall-A' && date.getDay() == 5}}
         <div class="image">
-            <img src='images/schedule/meeting.png' />
+            <img src='images/Schedule/meeting.png' />
             <br /><span class="caption">Meeting</span>
         </div>
         {{else resource.text != 'Party Hall-B' && date.getDate() == 15}}
         <div class="image">
-            <img src='images/schedule/holiday.png' />
+            <img src='images/Schedule/holiday.png' />
             <br /><span class="caption">Holiday</span>
         </div>
         {{else view != 'month' && resource.text == 'Party Hall-A' && date.getDay() == 5 && date.getHours() == 10}}
         <div class="image">
-            <img src='images/schedule/meeting.png' />
+            <img src='images/Schedule/meeting.png' />
             <br /><span class="caption">Meeting</span>
         </div>
         {{else view == 'month' && resource.text == 'Party Hall-B' && date.getDay() == 5}}
         <div class="image">
-            <img src='images/schedule/conference.png' />
+            <img src='images/Schedule/conference.png' />
             <br /><span class="caption">Conf.</span>
         </div>
         {{else resource.text == 'Party Hall-B' && date.getDate() == 16}}
         <div class="image">
-            <img src='images/schedule/happyday.png' />
+            <img src='images/Schedule/happyday.png' />
             <br /><span class="caption">Happyday</span>
         </div>
         {{else view != 'month' && resource.text == 'Party Hall-B' && date.getDay() == 5 && date.getHours() == 12}}
         <div class="image">
-            <img src='images/schedule/conference.png' />
+            <img src='images/Schedule/conference.png' />
             <br /><span class="caption">Conf.</span>
         </div>
         {{else date.getDate() == 10 && date.getMonth() == 11}}
         <div class="image">
-            <img src='images/schedule/wednesday.png' />
+            <img src='images/Schedule/wednesday.png' />
             <br /><span class="caption">Day Spl</span>
         </div>
         {{else date.getDate() == 25 && date.getMonth() == 11}}
         <div class="image">
-            <img src='images/schedule/christmas.png' />
+            <img src='images/Schedule/christmas.png' />
             <br /><span class="caption">Christmas</span>
         </div>
         {{/if}} {{/if}} {{/if}}

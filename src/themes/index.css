@@ -1,0 +1,195 @@
+.theme-position {
+    width: 215px;
+    cursor: pointer;
+    line-height: 26px;
+    padding: 10px;
+    display: inline-block;
+}
+.material .panel-heading .e-btn.e-btn-normal {
+    padding: 4px 10px;
+}
+.material .e-toolbar>ul>li{
+    padding: 5px;
+}
+.material  .e-ddl-popup div>ul li, .e-ddl-popup div>.e-listbox li {
+    line-height: 1.8;
+    padding: 5px 5px 5px .857em;
+}
+.material .dashboardSamplebutton .anchorclass {
+    height: 26px !important;
+    border-radius: 0;
+    text-decoration: none;
+	padding: 0.1em .4em .3em;
+}
+.material .codebutton .anchorclass {
+    height: 29px !important;
+    border-radius: 0 !important;
+    line-height: 23px;
+    margin-left: 132px;
+    margin-top: -43px;
+    padding-left: 4px;
+    width: 20px;
+    text-decoration: none;
+}
+.theme-dark a {
+    color: white;
+}
+.theme-dark #installation-tab.e-tab .e-activetop {
+    border: none;
+}
+.theme-dark code {
+    background-color:#292429;
+}
+.theme-dark .pln{
+    color:white;
+}
+.theme-dark .row .cols-sample-area {
+     background-image: url("/../images/dark right side BG texture.png");
+}
+.theme-dark #codepreview-about.e-tab .e-activetop {
+    border: 1px solid #000;
+}
+.theme-dark li.L1, li.L3, li.L5, li.L7, li.L9 {
+    background: none;
+}
+.theme-dark :not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: #292429;
+    text-shadow: none;
+}
+.theme-dark pre.prettyprint,.theme-dark #installation-tab .prettyprint.linenums li  {
+    background-color: #292429;
+}
+.theme-dark .listsampleimage .anchorclass  {
+    color: white;
+}
+.theme-dark .listsampleimage .litext {
+    color:#D2CECE;
+}
+.material .e-menu .e-list>.e-menulink {
+    font-size: 14px;
+}
+.material .e-toolbar.e-toolbarspan {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.material .e-toolbar>.e-horizontal.e-ul {
+    margin:0px;
+}
+.material .e-btn, .e-tbtn, .e-split-btn {
+     text-transform: inherit;
+}
+.iconFix .toolbar-navigation .e-toolbar .e-icon.e-toolbar-res-arrow:before {
+    margin-top: 5px;
+}
+.theme-dark .console div {
+    background-color: black !important ;
+    color:white;
+}
+.theme-dark .e-dialog.e-dialog-wrap {
+      box-shadow: 7px 7px 7px #272624;
+}
+.theme-dark .feature-wrap {
+    background-color: #000;
+}
+.theme-dark .console {
+    background-image: url("/../images/dark right side BG texture.png");
+}
+.theme-dark #Logger {
+    background-color: black;
+}
+.theme-text {
+    margin: 8px;
+    font-weight: 500;
+}
+.theme-dark .panel-default > .panel-heading {
+    background-color: #000;
+    color: #ddd;
+    border-color: #494949;
+}
+.theme-dark .panel-default {
+    border-color: #494949;
+}
+.theme-dark {
+    background-image: url("/../images/dark right side BG texture.png");
+    color: #ddd;
+}
+.theme-dark pre {
+    background-color: #000;
+    color: #ddd;
+}
+.theme-dark .token.operator {
+    background-color: black
+}
+.theme-dark .panel {
+     background-image: url("/../images/dark right side BG texture.png");
+     color:white;
+}
+.theme {
+    background-image: url("/../images/themeicon.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 28px;
+}
+.bootstrap-theme {
+    background-position: -5px -5px;
+}
+.high-contrast-01 {
+    background-position: -40px -118px;
+}
+.high-contrast-02 {
+    background-position: -75px -119px;
+}
+.material {
+    background-position: -5px -158px;
+}
+.office-365 {
+    background-position: -110px -119px;
+}
+.default-theme {
+    background-position: -40px -5px;
+}
+.flat-azure-dark {
+    background-position: -75px -5px;
+}
+.flat-lime {
+    background-position: -5px -43px;
+}
+.flat-lime-dark {
+    background-position: -40px -43px;
+}
+.flat-saffron {
+    background-position: -75px -43px;
+}
+.flat-saffron-dark {
+    background-position: -5px -81px;
+}
+.gradient-azure {
+    background-position: -40px -81px;
+}
+.gradient-azure-dark {
+    background-position: -75px -81px;
+}
+.gradient-lime {
+    background-position: -110px -5px;
+}
+.gradient-lime-dark {
+    background-position: -110px -43px;
+}
+.gradient-saffron {
+    background-position: -110px -81px;
+}
+.gradient-saffron-dark {
+    background-position: -5px -119px;
+}
+.e-dialog>.e-header {
+      font-weight: bold !important;
+}
+.e-dialog.e-dialog-wrap {
+      width: 695px !important;
+}  
+@media only screen and (min-width:150px) and (max-width:630px) {
+      .e-dialog.e-dialog-wrap {
+        width: 300px !important;
+  }
+}

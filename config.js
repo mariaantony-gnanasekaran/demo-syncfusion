@@ -1,7 +1,7 @@
 System.config({
-  "defaultJSExtensions": true,
-  "transpiler": "babel",
-  "babelOptions": {
+  defaultJSExtensions: true,
+  transpiler: "babel",
+  babelOptions: {
     "optional": [
       "runtime",
       "optimisation.modules.system",
@@ -9,19 +9,19 @@ System.config({
       "es7.classProperties"
     ]
   },
-  "paths": {
+  paths: {
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "syncfusion-javascript/*": "jspm_packages/npm/syncfusion-javascript@15.1.33/*",
-    "syncfusion-ej-global/*": "jspm_packages/npm/syncfusion-ej-global@15.1.33/*"
+    "syncfusion-ej-global/*": "jspm_packages/npm/syncfusion-ej-global@15.2.43/*"
   },
-  "meta": {
+  meta: {
     "showdown/dist/showdown.js": {
       "format": "global"
     }
   },
-  "map": {
+  map: {
     "aurelia-binding": "npm:aurelia-binding@1.1.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.0",
@@ -56,6 +56,7 @@ System.config({
     "prism": "github:PrismJS/prism@1.3.0",
     "showdown": "github:showdownjs/showdown@1.3.0",
     "showdown-prettify": "npm:showdown-prettify@1.3.0",
+    "syncfusion-javascript": "npm:syncfusion-javascript@15.1.33",
     "syncfusion-widgets": "npm:syncfusion-javascript@15.1.33",
     "text": "github:systemjs/plugin-text@0.0.4",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -469,7 +470,7 @@ System.config({
       "jquery-validation": "npm:jquery-validation@1.16.0",
       "jquery-validation-unobtrusive": "npm:jquery-validation-unobtrusive@3.2.6",
       "jsrender": "npm:jsrender@0.9.83",
-      "syncfusion-ej-global": "npm:syncfusion-ej-global@15.1.33"
+      "syncfusion-ej-global": "npm:syncfusion-ej-global@15.2.43"
     },
     "npm:through2@2.0.3": {
       "process": "github:jspm/nodelibs-process@0.1.2",
@@ -519,4 +520,4 @@ System.config({
       "y18n": "npm:y18n@3.2.1"
     }
   }
-})
+});

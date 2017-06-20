@@ -1,7 +1,7 @@
 export class LoadOnDemand {
     constructor() {
       let dataManager = ej.DataManager({  //eslint-disable-line new-cap
-        url: 'http://mvc.syncfusion.com/OdataServices/api/ScheduleData/',
+        url: 'http://js.syncfusion.com/demos/ejServices/api/Schedule/LoadCurrentData',
         crossDomain: true
       });
       this.Views = ['Day', 'Week', 'WorkWeek', 'Month'];

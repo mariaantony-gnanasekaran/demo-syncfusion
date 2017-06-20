@@ -1,0 +1,19 @@
+{
+  "title": "SpellCheck",
+  "documentation": "http://help.syncfusion.com/js/api/ejSpellCheck",
+  "samples": {
+    "default": {
+      "default": true,
+      "files": [ "html", "js", "css" ]
+    },
+    "context-menu": {      
+      "files": [ "html", "js", "css" ]
+    },
+    "api": {      
+      "files": [ "html", "js", "css" ]
+    },
+    "multiple-targets": {      
+      "files": [ "html", "js", "css" ]
+    }
+  }
+}
