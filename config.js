@@ -16,11 +16,13 @@ System.config({
     "syncfusion-javascript/*": "jspm_packages/npm/syncfusion-javascript@15.1.33/*",
     "syncfusion-ej-global/*": "jspm_packages/npm/syncfusion-ej-global@15.2.43/*"
   },
+
   meta: {
     "showdown/dist/showdown.js": {
       "format": "global"
     }
   },
+
   map: {
     "aurelia-binding": "npm:aurelia-binding@1.1.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
